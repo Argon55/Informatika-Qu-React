@@ -1,1 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+}
 
+@theme inline {
+  --perimary-color: #ee6c4d;
+}
